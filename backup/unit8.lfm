@@ -1,0 +1,66 @@
+object Form8: TForm8
+  Left = 525
+  Height = 180
+  Top = 142
+  Width = 320
+  Caption = 'Панель администратора'
+  ClientHeight = 180
+  ClientWidth = 320
+  Constraints.MaxHeight = 180
+  Constraints.MaxWidth = 320
+  Constraints.MinHeight = 180
+  Constraints.MinWidth = 320
+  LCLVersion = '2.0.8.0'
+  object Label1: TLabel
+    Left = 9
+    Height = 25
+    Top = 8
+    Width = 296
+    Caption = 'Панель администратора Дмитрия'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 80
+    Height = 31
+    Top = 64
+    Width = 168
+    Caption = 'Сброс регистрирующихся'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 80
+    Height = 33
+    Top = 112
+    Width = 168
+    Caption = 'Снять занятость номеров'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 256
+    Height = 13
+    Top = 82
+    Width = 14
+    TabOrder = 2
+    Visible = False
+  end
+  object Memo2: TMemo
+    Left = 256
+    Height = 13
+    Top = 132
+    Width = 14
+    Lines.Strings = (
+      '0'
+    )
+    TabOrder = 3
+    Visible = False
+  end
+end

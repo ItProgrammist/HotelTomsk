@@ -1,0 +1,31 @@
+object Form2: TForm2
+  Left = 471
+  Height = 124
+  Top = 408
+  Width = 408
+  Caption = 'О нашем отеле'
+  ClientHeight = 0
+  ClientWidth = 0
+  Constraints.MaxHeight = 124
+  Constraints.MaxWidth = 408
+  Constraints.MinHeight = 124
+  Constraints.MinWidth = 408
+  OnCreate = FormCreate
+  LCLVersion = '1.2.6.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 124
+    Top = 0
+    Width = 416
+    Enabled = False
+    Lines.Strings = (
+      '   HotelTomsk - это 4-х звёздочный Гостиничный Комплекс, '
+      'расположенный в деловом центре города Томска.'
+      '   Здесь всё продумано для вашего комфортного проживания:'
+      '   Удобные номера, бесплатный Wi-Fi, халаты и тапочки, вкусные '
+      'завтраки, мягкое ковровое покрытие в номерах и коридорах, '
+      'кондиционеры и вентиляции, современный SPA-центр.'
+    )
+    TabOrder = 0
+  end
+end

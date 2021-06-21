@@ -1,0 +1,47 @@
+object Form5: TForm5
+  Left = 523
+  Height = 180
+  Top = 142
+  Width = 320
+  Caption = 'Подтверждение брони'
+  ClientHeight = 180
+  ClientWidth = 320
+  Constraints.MaxHeight = 180
+  Constraints.MaxWidth = 320
+  Constraints.MinHeight = 180
+  Constraints.MinWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '1.2.6.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 19
+    Top = 24
+    Width = 297
+    Caption = 'Вы подтверждаете бронирование номера?'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Candara'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 56
+    Height = 41
+    Top = 96
+    Width = 83
+    Caption = 'Да'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 176
+    Height = 42
+    Top = 96
+    Width = 86
+    Caption = 'Нет'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+end

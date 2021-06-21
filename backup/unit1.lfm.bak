@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 471
+  Height = 264
+  Top = 107
+  Width = 408
+  Caption = 'HotelTomsk'
+  ClientHeight = 0
+  ClientWidth = 0
+  Constraints.MaxHeight = 264
+  Constraints.MaxWidth = 408
+  Constraints.MinHeight = 264
+  Constraints.MinWidth = 408
+  OnCreate = FormCreate
+  LCLVersion = '1.2.6.0'
+  object Label1: TLabel
+    Left = 136
+    Height = 26
+    Top = 24
+    Width = 120
+    Caption = 'HotelTomsk'
+    Font.CharSet = SHIFTJIS_CHARSET
+    Font.Height = -21
+    Font.Name = '@Adobe Heiti Std R'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label1Click
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 49
+    Top = 144
+    Width = 112
+    Caption = 'О нашем отеле'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Candara'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 280
+    Height = 49
+    Top = 144
+    Width = 115
+    Caption = 'Контакты'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Candara'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 144
+    Height = 49
+    Top = 144
+    Width = 112
+    Caption = 'Забронировать'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Candara'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 2
+  end
+end
